@@ -1,0 +1,161 @@
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F7F7F7; /* Pastel gray */
+}
+
+header {
+    background-color: #55C6A9; /* Pastel green */
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav {
+    background-color: #FFD966; /* Pastel yellow */
+    color: #333;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 20px;
+}
+
+.hero {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.flower-info-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flower-info {
+    background-color: #FFB6C1; /* Pastel pink */
+    color: #333;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    height: 400px !important;
+    flex: 0 0 calc(25% - 8rem);
+}
+
+.flower-info:nth-child(4n) {
+    margin-right: 0;
+}
+.about-info-container {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    height: 400px;
+}
+
+.about-info {
+    background-color: #ADD8E6; /* Light blue */
+    color: #333;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    width: 70%; /* Adjust the width as needed */
+}
+.contact-info-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    height: 400px;
+}
+
+.contact-info {
+    background-color:#ADD8E6; /* Light blue */
+    color: #333;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    height: 300px;
+    flex: 0 0 calc(25% - 8rem);
+}
+/* Common styles for flower-info-container and flower-info */
+.flower-info-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flower-info {
+    background-color: #FFB6C1; /* Pastel pink */
+    color: #333;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    height: 300px;
+    flex: 0 0 calc(25% - 8rem);
+}
+
+/* Specific styles for flowers-info-container and flowers-info */
+.flowers-info-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Center the content horizontally with space around */
+    background-color: #F0E68C; /* Khaki */
+    padding: 20px;
+}
+
+.flowers-info {
+    background-color: #98FB98; /* Light green */
+    color: #333;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    height: 300px;
+    flex: 0 0 calc(30% - 8rem);
+}
+
+.intro {
+    text-align: center;
+    position: relative; /* Required for absolute positioning of images */
+}
+
+.intro h2 {
+    background-color: #87CEEB; /* Sky blue */
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%; /* Create a circular shape */
+    display: inline-block;
+    position: relative; /* Maintain relative positioning */
+    z-index: 2; /* Ensure text is above images */
+}
+
+.intro p {
+    text-align: justify;
+    position: relative; /* Maintain relative positioning */
+    z-index: 2; /* Ensure text is above images */
+}
+
+
